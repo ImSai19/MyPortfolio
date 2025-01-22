@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0ab3af3637.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <nav>
+            <img class="logo" src="/images/mylogo.png">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p id="insp">Makeup Artist</p>
+            <h1>Hi, I'm <span>Prajakta</span><br>Chopade From Patan</h1>
+            <p id="moti">Transforming faces and uplifting spirits, I am a passionate makeup artist who believes in the power of beauty to boost confidence and celebrate individuality. Every brushstroke is a chance to create art and help someone feel extraordinary. </p>
+        </div>
+    </div>
+</div>
+<!-- ----------------------About----------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img class="about-img" src="images/me.jpg">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <P>
+                    Hi, I’m Prajakta, a passionate makeup artist with 3 years of experience. I specialize in creating stunning looks for weddings, parties, and special events. From natural, everyday styles to bold, glamorous transformations, I’m dedicated to enhancing your beauty and confidence. Let’s bring your vision to life!  </P>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-containts active-tab" id="skills">
+                        <ul>
+                            <li><span>Makeup Application Techniques</span><br>Foundation, Contouring, Blending.</li>
+                            <li><span>Knowledge of Tools and Products</span><br>Brushes, Sponges, Makeup Products.</li>
+                            <li><span>Client Communication and Customer Service</span><br>Understanding Client Needs, Providing a Comfortable Experience</li>
+                        </ul>
+                    </div>
+                    <div class="tab-containts" id="experience">
+                        <ul>
+                            <li><span>Advanced Makeup Techniques</span><br>Expertise in bridal, editorial, and special effects makeup</li>
+                            <li><span>Client and Event Experience</span><br>Worked on weddings, fashion shows, and photoshoots with positive client feedback.</li>                            
+                            <li><span> Continuous Learning</span><br>Attended workshops, stayed updated with trends, and maintained high hygiene standards.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-containts" id="education">
+                        <ul>
+                            <li><span>Bachelor of Commerce (B.Com)</span><br>Balasaheb Desai College,Patan Pursuing - Final Year (Expected Completion: 2025)</li>
+                            <li><span>Makeup Artist Training</span><br>Relax Beauty Salon/Makeover Completed: 3Years</li>                            
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------------------Services---------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY Services</h1>
+        <div class="services-list">
+            <div>
+                <img class="icon" src="/images/birdal logo.png" alt="Bridal">
+                <h2>Bridal Makeup</h2>
+                <p>Bridal makeup enhances the bride's beauty with a flawless, 
+                long-lasting look, tailored to complement her outfit, jewelry, and style.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img class="icon" src="images/party.png" alt="party logo">
+                <h2>Party Makeup</h2>
+                <p>Party makeup creates a glamorous, polished look, 
+                enhancing features with vibrant colors and stylish techniques, perfect for any celebration.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img class="icon1" src="images/pre wedding.png" alt="pre wedding">
+                <h2>Pre Wedding Makeup</h2>
+                <p>Pre-wedding makeup offers a natural, glowing look,
+                emphasizing subtle elegance for memorable photoshoots and special moments.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img class="icon" src="images/engagement.png" alt="engagement">
+                <h2>Engagement Makeup</h2>
+                <p>Engagement makeup highlights natural beauty with a radiant, 
+                sophisticated look, perfect for the special occasion.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img class="icon" src="images/sider makeup.png" alt="sider">
+                <h2>Sider Makeup</h2>
+                <p>Sider makeup provides a soft, elegant look, 
+                enhancing features subtly to complement the main event without overpowering it.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img class="icon" src="images/event.png" alt="event">
+                <h2>Event Makeup</h2>
+                <p>Event makeup creates a polished and striking look, 
+                    tailored to suit the theme and vibe of any special occasion.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img class="icon" src="images/groom3.png" alt="groom">
+                <h2>Groom makeup</h2>
+                <p>Groom makeup ensures a natural, polished look, 
+                enhancing the groom's features while maintaining a subtle and masculine appearance.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img class="icon" src="images/baby shower.png" alt="baby shower">
+                <h2>Baby Shower</h2>
+                <p>Celebrate your special day with our baby shower makeup service, offering a soft, 
+                radiant look that enhances your natural beauty and complements the joyful occasion.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------------------------------Portfolio------------------------------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg" alt="work">
+                <div class="layer">
+                    <h3>Classic Elegance</h3>
+                    <p>Traditional makeup that enhances your natural beauty with bold eyes, radiant skin, and vibrant lips, celebrating timeless grace.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpg" alt="work">
+                <div class="layer">
+                    <h3>Cultural Charm</h3>
+                    <p> A fusion of rich tones and intricate details, traditional makeup brings out your unique heritage and radiates elegance.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work4 (1).png" alt="work">
+                <div class="layer">
+                    <h3>Timeless Beauty</h3>
+                    <p>Traditional makeup that tells a story through every brushstroke, offering a flawless, culturally inspired look for every occasion.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> Prajakta@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +917058624017</p>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/prajakta22_makeupartist?igsh=MWhvbHM5ejk1a3Y3"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="tel:+917058624017" class="btn btn2" id="callButton">Book Now</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; 2025 Prajakta Makeup Artistry. <i class="fa-solid fa-heart"></i> All rights reserved.</p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontaints = document.getElementsByClassName("tab-containts");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+        for(tabcontaint of tabcontaints){
+            tabcontaint.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    document.getElementById("callButton").addEventListener("click", function(event) {
+            event.preventDefault(); 
+            let userConfirmed = confirm("Are you sure you want to call this number?");
+            if (userConfirmed) {
+                window.location.href = "tel:+917058624017"; 
+            }
+        });
+
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyNbTzkoAm1Eu9sNh2zm7SvctcWNjAkEpET5FDSW14O1jFRbUNFG-LKAhEd3CMb_tHg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
